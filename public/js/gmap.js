@@ -1,11 +1,11 @@
-var mapLocation = new google.maps.LatLng(40.6700, -73.9400); //change coordinates here
+var mapLocation = new google.maps.LatLng(48.919861, 9.455139); //change coordinates here
 var marker;
 var map;
 
 function initialize() {
     var mapOptions = {
-        zoom: 11, //change zoom here
-        center: mapLocation,
+        zoom: 15, //change zoom here
+        center: mapLocation/*,
         scrollwheel: false,
         styles: [{
             "featureType": "administrative",
@@ -65,7 +65,7 @@ function initialize() {
             }, {
                 "visibility": "on"
             }]
-        }]
+        }]*/
 
     };
 
@@ -74,7 +74,7 @@ function initialize() {
 
 
     //change address details here
-    var contentString = '<div class="map-info-box">' + '<div class="map-head">' + '<h3>Archer</h3></div>' + '<p class="map-address"><i class="fa fa-map-marker"></i> 4751 Clarksburg Park Road <br><i class="fa fa-phone"></i> +1856-236-1853<br><span class="map-email"><i class="fa fa-envelope"></i> Contact@archer.com</span></p>' + '<a href="https://www.google.com/maps/place/851+6th+Ave,+New+York,+NY+10001,+USA/data=!4m2!3m1!1s0x89c259af44f80211:0xbd87d30d3c7da9d2?sa=X&amp;ei=KqAdVazxJMTkuQS9sIGIBQ&amp;aved=0CB0Q8gEwAA" target="_blank">Open on Google Maps</a></div>';
+    var contentString = '<div class="map-info-box">' + '<div class="map-head">' + '<h3>EDSH</h3></div>' + '<p class="map-address"><i class="fa fa-map-marker"></i> Oberwiese 1, 71522 Backnang<br><i class="fa fa-phone"></i> 07191 64334<br><span class="map-email"><i class="fa fa-envelope"></i> info@edsh.de</span></p>' + '<a href="https://www.google.de/maps/place/Luftsportverein+Backnang-+Heiningen+e.V.+Flugplatz/@48.920222,9.453852,17z/data=!3m1!4b1!4m5!3m4!1s0x4799b5947510ed67:0x622057a2f2821858!8m2!3d48.920222!4d9.456046" target="_blank">Open on Google Maps</a></div>';
 
 
     var infowindow = new google.maps.InfoWindow({
@@ -86,7 +86,7 @@ function initialize() {
     marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        title: 'Archer', //change title here
+        title: 'EDSH', //change title here
         icon: image,
         animation: google.maps.Animation.DROP,
 
