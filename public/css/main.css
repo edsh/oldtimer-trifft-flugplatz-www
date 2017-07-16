@@ -243,6 +243,10 @@ strong { font-weight: 700; }
 .navbar-nav > li,
 .navbar-header { float: left; }
 
+.navbar-brand > img {
+  width: 155px;
+}
+
 .navbar-right { float: right!important; }
 
 .navbar-nav { margin: 6.5px -15px!important; }
