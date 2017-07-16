@@ -141,7 +141,7 @@ strong { font-weight: 700; }
   right: 0;
 }
 
-.hero-section::before { background: rgba(17, 17, 17, 0.38); }
+.hero-section::before { background: rgba(255, 255, 255, 0.5); }
 
 .welcome-message { padding: 10.5em 15px 9em; }
 
