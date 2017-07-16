@@ -249,7 +249,7 @@ strong { font-weight: 700; }
 
 .navbar-brand > img.logo { width: 155px; }
 .navbar-brand > img.logo-nav {
-  margin-top: -15px;
+  margin-top: -2px;
   width: 120px;
 }
 
