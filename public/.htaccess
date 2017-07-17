@@ -10,6 +10,8 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 RewriteCond %{HTTP_HOST} !^www\.oldtimer-trifft-flugplatz\.de$ [NC]
 RewriteRule ^(.*)$ https://www.oldtimer-trifft-flugplatz.de/$1 [L,R=301]
 
+DirectoryIndex index.min.html
+
 #Source: https://github.com/h5bp/server-configs-apache/blob/master/dist/.htaccess
 
 # ######################################################################
