@@ -260,7 +260,7 @@ strong { font-weight: 700; }
   padding: 10px 20px;
   display: inline-block;
 }
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:not(#toggle):hover {
   color: #b2dfd1;
 }
 .navbar-default .navbar-nav > li > a:after {
@@ -271,7 +271,7 @@ strong { font-weight: 700; }
   background: transparent;
   transition: width .4s ease, background-color .4s ease;
 }
-.navbar-default .navbar-nav > li > a:hover:after {
+.navbar-default .navbar-nav > li > a:not(#toggle):hover:after {
   width: 100%;
   background: #424242;
 }
