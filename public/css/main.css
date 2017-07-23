@@ -145,7 +145,7 @@ strong { font-weight: 700; }
   right: 0;
 }
 
-.hero-section::before { background: rgba(255, 255, 255, 0.5); }
+.hero-section::before { background: rgba(255, 255, 255, 0.6); }
 
 .welcome-message { padding: 10.5em 15px 9em; }
 
@@ -153,9 +153,12 @@ strong { font-weight: 700; }
 
 .welcome-message h1,
 .welcome-message h2 {
-  color: #424242;
+  color: black;
   line-height: 1.35;
   text-shadow: /* a couple to increase the effect/contrast */
+        0 0 20px rgba(255, 255, 255, 1),
+        0 0 20px rgba(255, 255, 255, 1),
+        0 0 20px rgba(255, 255, 255, 1),
         0 0 20px rgba(255, 255, 255, 1),
         0 0 20px rgba(255, 255, 255, 1),
         0 0 20px rgba(255, 255, 255, 1),
@@ -1483,6 +1486,12 @@ blockquote cite i { font-weight: 400; }
 .social li a:hover {
   color: #424242;
   background-color: #b2dfd1;
+}
+
+.social li .a-flickr:hover {
+  background: #ff0084;
+  color: #fff;
+  border-color: #ff0084;
 }
 
 .social li .a-facebook:hover {
