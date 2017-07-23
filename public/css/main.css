@@ -247,10 +247,10 @@ strong { font-weight: 700; }
 
 .navbar-brand > .logo-nav { display: none; }
 
-.navbar-brand > img.logo { width: 155px; }
+.navbar-brand > img.logo,
 .navbar-brand > img.logo-nav {
-  margin-top: -2px;
-  width: 120px;
+  margin-top: 18px;
+  width: 348px;
 }
 
 .navbar-default .navbar-nav > li > a {
