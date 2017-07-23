@@ -1480,6 +1480,10 @@ blockquote cite i { font-weight: 400; }
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
+.social li a:hover {
+  color: #424242;
+  background-color: #b2dfd1;
+}
 
 .social li .a-facebook:hover {
   background: #3b5998;
