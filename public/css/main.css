@@ -1648,9 +1648,6 @@ blockquote cite i { font-weight: 400; }
 
    
 .site-footer > .container > .row:first-child {
-  margin-bottom: 3em;
-  padding-bottom: 3em;
-  border-bottom: 1px solid #eeeff0;
 }
 
 .site-footer h3 {
@@ -1753,7 +1750,7 @@ blockquote cite i { font-weight: 400; }
 }
 
 .footer-nav a { color: #848e92; }
- .footer-nav li:not(:nth-last-child(1) ) {
+ .footer-nav li {
  margin-bottom: 7px;
 }
 
@@ -2175,11 +2172,9 @@ h6,
 
 .feature-cta-list > li > p { margin-left: 80px; }
 
-.feature-cta-list > li > h4 { margin: 0 0 12px 80px; }
+.feature-cta-list > li > h4 { margin: 0; }
 
 .site-footer > .container > .row:first-child {
-  margin-bottom: 3.75em;
-  padding-bottom: 3.75em;
 }
 
 .terms-privacy { text-align: right; }
@@ -2382,7 +2377,7 @@ h6,
   text-align: left;
 }
 
-.site-footer .social { text-align: right; }
+.site-footer .social { text-align: left; }
 
 .site-policy .modal-content { padding: 1.5em 3em; }
 }
