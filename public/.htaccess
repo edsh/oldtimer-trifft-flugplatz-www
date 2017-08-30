@@ -1,8 +1,12 @@
-Protocols h2 http/1.1
+#Protocols h2 http/1.1
 
-RewriteEngine On
+#H2PushResource add css/bootstrap.min.css
+#H2PushResource add css/main.min.css
 
 Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" "expr=%{HTTPS} == 'on'"
+Header always set Content-Language "de"
+
+RewriteEngine On
 
 # non SSL
 RewriteCond %{HTTPS} off
