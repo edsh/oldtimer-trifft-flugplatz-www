@@ -5,15 +5,16 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Oldtimertreffen BK-Heiningen 2017 | Oldtimer trifft Flugplatz</title>
-<meta name="description" content="Archer - Responsive Landing Page">
+<title itemprop="name">Oldtimer trifft Flugplatz | Oldtimertreffen BK-Heiningen 2017</title>
+<meta name="description" content="Oldtimerfreunde & Familie treffen vom 9.-10. September 2017 auf Oldtimer aller Art. Vorbeikommen, Flugplatz kennen lernen und Spaß haben in Backnang-Heiningen!">
 
 <link rel="canonical" href="https://www.oldtimer-trifft-flugplatz.de/">
+<link itemprop="sameAs" href="https://www.facebook.com/events/131074917496239/">
 
 <meta property="og:url" content="https://www.oldtimer-trifft-flugplatz.de" />
-<meta property="og:title" content="Oldtimertreffen BK-Heiningen 2017 | Oldtimer trifft Flugplatz" />
+<meta property="og:title" content="Oldtimer trifft Flugplatz | Oldtimertreffen BK-Heiningen 2017" />
 <meta itemprop="description" property="og:description" content="Oldtimerfreunde & Familie treffen vom 9.-10. September 2017 auf Oldtimer aller Art. Vorbeikommen, Flugplatz kennen lernen und Spaß haben in Backnang-Heiningen!" />
-<meta property="og:image" content="https://www.oldtimer-trifft-flugplatz.de/img/oldtimer-trifft-flugplatz-share-it.jpg" />
+<meta itemprop="image" property="og:image" content="https://www.oldtimer-trifft-flugplatz.de/img/oldtimer-trifft-flugplatz-share-it.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:locale" content="de_DE" />
@@ -229,7 +230,7 @@
 
       <div class="col-sm-4"> <img src="img/Anreise_Flieger.svg" style="width: 74px" alt="">
         <h3>Anreise Flieger</h3>
-        <p>Samstag bis 10:00 Uhr Abreise Montag ab Sunrise</p>
+        <p>Samstag bis 10:00 Uhr Abreise Montag ab 10:00 Uhr local</p>
       </div>
 
       <div class="col-sm-4"> <img src="img/Security.svg" alt="">
@@ -273,12 +274,25 @@
 
 <section class="new-feature" id="besucher">
   <div class="container">
+
     <header class="section-header text-center">
       <h2>Besucher</h2>
       <h3>Alles rund ums Fest</h3>
     </header>
 
     <div class="row feature-list">
+
+      <div class="col-sm-4" itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <i class="fa fa-map-marker fa-5x" style="position: absolute; color: #093f88;"></i>
+        <link itemprop="sameAs" href="https://www.edsh.de">
+        <link itemprop="sameAs" href="https://de.wikipedia.org/wiki/Flugplatz_Backnang-Heiningen">
+        <h3 itemprop="name">Flugplatz Backnang-Heiningen</h3>
+        <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">Oberwiese 1</span><br>
+            <span itemprop="postalCode">71522</span>
+            <span itemprop="addressLocality">Backnang</span>
+        </p>
+      </div>
 
       <div class="col-sm-4"> <img src="img/kostenloser%20Eintritt.svg" alt="">
         <h3>Kostenloser Eintritt</h3>
@@ -290,14 +304,16 @@
         <h3>Beginn Samstag</h3>
         <p>Am Samstag beginnt unser Fest um 13:00 Uhr.</p>
       </div>
+    </div>
+
+    <div class="row feature-list">
 
       <div class="col-sm-4"> <img src="img/Beginn%20Sonntag.svg" alt="">
         <h3>Beginn Sonntag</h3>
         <p>Am Sonntag beginnt unser Fest um 11:30 Uhr.</p>
       </div>
-    </div>
 
-    <div class="row feature-list">
+
 
       <div class="col-sm-4"> <img src="img/Oldtimer.svg" alt="">
         <h3>Oldtimer bestaunen</h3>
@@ -308,20 +324,33 @@
         <h3>Rundflug gewinnen</h3>
         <p>Pro Bon Chance sichern auf Rundfluggewinn</p>
       </div>
+    </div>
+
+    <div class="row feature-list">
 
       <div class="col-sm-4"> <img src="img/Essen_trinken.svg" alt="">
         <h3>Lecker essen und trinken</h3>
         <p>Für das leibliche Wohl sorgen unsere Freunde vom MC Trailhof und wir.</p>
       </div>
+
+      <div class="col-sm-4" itemprop="performer" itemscope itemtype="http://schema.org/MusicGroup">
+        <img src="img/Konzert_Molch_Combo.svg" alt="">
+        <link itemprop="sameAs" href="http://www.molch-combo.de/" />
+        <h3>Konzert der <span itemprop="name">Molch Combo</span></h3>
+        <p>Samstag ab 20:00 Uhr Open-Air-Rock aus dem Hangar (für Besucher 6&nbsp;Euro Eintritt,
+          für Teilnehmer kostenlos)</p>
+      </div>
+
+      <div class="col-sm-4" itemprop="performer" itemscope itemtype="http://schema.org/MusicGroup">
+        <img src="img/Musikverein_Rietenau.svg" alt="">
+        <link itemprop="sameAs" href="http://www.musikverein-rietenau.de/" />
+        <link itemprop="sameAs" href="https://www.facebook.com/mvrietenau/" />
+        <h3>Frühschoppen mit dem <span itemprop="name">Musikverein Rietenau</span></h3>
+        <p>Am Sonntag morgen ab 11:30 gemütlicher Festauftakt</p>
+      </div>
     </div>
 
     <div class="row feature-list">
-
-      <div class="col-sm-4"> <img src="img/Konzert_Molch_Combo.svg" alt="">
-        <h3>Konzert der Molch Combo</h3>
-        <p>Samstag ab 20:00 Uhr Open-Air-Rock aus dem Hangar (für Besucher 6&nbsp;EUR Eintritt,
-          für Teilnehmer kostenlos)</p>
-      </div>
 
       <div class="col-sm-4"> <img src="img/Vortraege.svg" style="width: 74px" alt="">
         <h3>Für Fluginteressierte</h3>
@@ -332,15 +361,13 @@
         <h3>Karate-Show</h3>
         <p>Showeinlage der Karateschule Shingikan Backnang</p>
       </div>
-    </div>
-
-    <div class="row feature-list">
 
       <div class="col-sm-4"> <img src="img/Kinderschminken.svg" alt="">
         <h3>Für unsere kleinen Gäste</h3>
         <p>Kinderrallye, Quads, Kinderschminken, Pony-Reiten uvm.</p>
       </div>
     </div>
+
   </div>
 </section>
 
