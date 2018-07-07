@@ -1446,6 +1446,7 @@ blockquote cite i { font-weight: 400; }
 }
 
 .team-details h5 .bold { font-weight: 600; }
+.team-details ul.social { padding: 0; }
 
 .team-position {
   font-size: 17px;
