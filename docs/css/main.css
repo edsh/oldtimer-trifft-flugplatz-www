@@ -63,18 +63,18 @@ html.sl-page,
 body.sl-page { height: 100%; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-  color: #848e92;
-  font-size: 16px;
+  font-weight: 300;
+  color: #04071a;
+  font-size: 19px;
   overflow-x: hidden;
 }
 
 p {
-  font-weight: 400;
-  color: #848e92;
-  font-size: 16px;
+  font-weight: 300;
+  color: #04071a;
+  font-size: 19px;
   line-height: 1.6;
 }
 
@@ -108,7 +108,7 @@ img {
 }
 
 b,
-strong { font-weight: 700; }
+strong { font-weight: 400; }
 
 /* ==========================================================================
    2.Hero section
@@ -168,7 +168,7 @@ strong { font-weight: 700; }
 
 .welcome-message h2 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 2px;
 }
 
@@ -218,7 +218,7 @@ strong { font-weight: 700; }
 .btn-cta-hero {
   padding: 1.25em 5.4em;
   margin-top: 3em;
-  font-size: 16px
+  font-size: 19px
 }
 
 /* ==========================================================================
@@ -340,7 +340,7 @@ strong { font-weight: 700; }
 .navbar-default.affix .navbar-nav > li > a,
 .navbar-default.affix .navbar-nav > li > a:focus {
   color: #526066;
-  font-weight: 600;
+  font-weight: 400;
   background-color: transparent;
 }
 
@@ -555,7 +555,7 @@ strong { font-weight: 700; }
 .features h4 {
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 24px;
   letter-spacing: .5px;
 }
@@ -748,7 +748,7 @@ blockquote cite i { font-weight: 400; }
 .learn-more h2 span {
   display: block;
   font-size: 16px;
-  color: #848e92;
+  color: #04071a;
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: .5px;
@@ -757,7 +757,7 @@ blockquote cite i { font-weight: 400; }
 .learn-more-link {
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .3px;
 }
 
@@ -823,7 +823,7 @@ blockquote cite i { font-weight: 400; }
 .new-feature h3 {
   font-size: 15px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .5px;
 }
 
@@ -938,7 +938,7 @@ blockquote cite i { font-weight: 400; }
 
 .popover {
   border: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.6;
   font-size: 15px;
   z-index: 800;
@@ -1052,7 +1052,7 @@ blockquote cite i { font-weight: 400; }
 
 .plan-cta span {
   font-size: 13px;
-  color: #848e92;
+  color: #04071a;
   display: block;
 }
 
@@ -1078,7 +1078,7 @@ blockquote cite i { font-weight: 400; }
 
 .plan-details li i:hover { cursor: help; }
 
-.tooltip { font-family: 'Open Sans', sans-serif; }
+.tooltip { font-family: 'Lato', sans-serif; }
 
 .tooltip-inner {
   box-shadow: 0 0 5px 0 rgba(148,148,148,0.5);
@@ -1290,7 +1290,7 @@ blockquote cite i { font-weight: 400; }
   margin: 0 0 48px;
 }
 
-.trusted-clients h2 strong { font-weight: 600; }
+.trusted-clients h2 strong { font-weight: 400; }
 
 .trusted-clients h2 span {
   font-size: 20px;
@@ -1332,7 +1332,7 @@ blockquote cite i { font-weight: 400; }
 
 .product-statistics h3 {
   margin: 12px 0 0;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 28px;
 }
 
@@ -1340,7 +1340,7 @@ blockquote cite i { font-weight: 400; }
   text-transform: uppercase;
   display: block;
   font-size: 14px;
-  color: #848e92;
+  color: #04071a;
   padding-top: 6px;
   letter-spacing: .5px;
 }
@@ -1427,7 +1427,7 @@ blockquote cite i { font-weight: 400; }
 
 .about-us h4 {
   font-size: 18.5px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: .5px;
   margin: 0 0 12px;
@@ -1445,12 +1445,12 @@ blockquote cite i { font-weight: 400; }
   font-size: 20px;
 }
 
-.team-details h5 .bold { font-weight: 600; }
+.team-details h5 .bold { font-weight: 400; }
 .team-details ul.social { padding: 0; }
 
 .team-position {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   color: #091d25;
   display: block;
   padding-top: 12px;
@@ -1665,7 +1665,7 @@ blockquote cite i { font-weight: 400; }
 
 .sub-form .form-control {
   border-color: #dadddf;
-  color: #848e92;
+  color: #04071a;
   padding: 10px 16px 10px 40px;
 }
 
@@ -1741,7 +1741,7 @@ blockquote cite i { font-weight: 400; }
 }
 
 .tweet {
-  color: #848e92;
+  color: #04071a;
   font-size: 16px;
   padding: 0 2em;
   line-height: 1.7;
@@ -1750,7 +1750,7 @@ blockquote cite i { font-weight: 400; }
  margin-bottom: 2.25em;
 }
 
-.footer-nav a { color: #848e92; }
+.footer-nav a { color: #04071a; }
  .footer-nav li {
  margin-bottom: 7px;
 }
@@ -1829,12 +1829,12 @@ blockquote cite i { font-weight: 400; }
 
 .map-info-box {
   padding: 1em 1.5em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .map-info-box p {
   line-height: 1.8;
-  color: #848e92;
+  color: #04071a;
   white-space: nowrap;
 }
 
@@ -1848,7 +1848,7 @@ blockquote cite i { font-weight: 400; }
 
 .map-info-box a {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   white-space: nowrap;
 }
 
@@ -1987,7 +1987,7 @@ blockquote cite i { font-weight: 400; }
 
 .cta-light .form-control {
   border-color: #dadddf;
-  color: #848e92;
+  color: #04071a;
 }
 
 .cta-light .form-control:focus { border-color: #31aff5; }
@@ -2209,11 +2209,11 @@ h6,
 
 .welcome-message { padding: 16.5em 0; }
 
-.welcome-message h1 { font-size: 44px; }
+.welcome-message h1 { font-size: 64px; }
 
-.welcome-message h2 { font-size: 22px; }
+.welcome-message h2 { font-size: 24px; }
 
-.section-spacing { padding: 6em 0; }
+.section-spacing { padding: 3em 0; }
 
 .how-it-works .row:not(:last-child) { margin-bottom: 4.5em; }
 
