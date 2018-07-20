@@ -2284,7 +2284,8 @@ h6,
 
 .new-feature h3 { margin-top: 0; }
 
-.feature-list > div[class^="col-"] img { position: absolute; }
+.feature-list > div[class^="col-"] img,
+.feature-list > div[class^="col-"] i { position: absolute; }
 
 .feature-list > div[class^="col-"] h3,
 .feature-list > div[class^="col-"] p { margin-left: 90px; }
