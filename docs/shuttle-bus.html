@@ -55,6 +55,13 @@
     table.timetable th,
     table.timetable td { padding-left: 15px; padding-right: 15px }
     table.timetable thead tr { vertical-align: bottom; white-space: nowrap}
+    table.timetable thead th { position: relative }
+    table.timetable thead th:not(:last-child):after {
+      content: "\25b6";
+      position: absolute;
+      top: 21%;
+      right: 0;
+    }
     table.timetable thead th abbr { display: block }
 
     .prn {
@@ -266,7 +273,7 @@
         <dfn class="prn" style="float: right; padding: 15px; margin-right: -15px"><sup>1</sup> nach Bedarf</dfn>
 
 
-        <h3>Backnanger Tour</h3>
+        <h3 style="clear: right">Backnanger Tour</h3>
         <table class="timetable">
           <thead>
             <tr>
